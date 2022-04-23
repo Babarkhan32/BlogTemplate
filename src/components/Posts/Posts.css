@@ -1,0 +1,10 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .child {
+    flex: 1 0 41%; /* explanation below */
+    margin: 5px;
+   
+  }
