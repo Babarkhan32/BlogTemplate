@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom'
 const Categories = () => {
     const navigate = useNavigate();
     const handleClick = (category) => {
-    
       return  navigate(`/category/${category}`)
     }
     const categories = ['Sports','local','international','Bollywood','Weather','Capital','Sports','local','international','Bollywood','Weather','Capital','Sports','local','international','Bollywood','Weather','Capital']
